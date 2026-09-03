@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "272936586203",
+    "firebase_url": "https://smart-bump-iot-3e764-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smart-bump-iot-3e764",
+    "storage_bucket": "smart-bump-iot-3e764.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272936586203:android:aec09b243cd388781bb5fe",
+        "android_client_info": {
+          "package_name": "com.example.smart_bump"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4rJ7BGHpul5dC3LSvbypsQwf9QKz8qmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
