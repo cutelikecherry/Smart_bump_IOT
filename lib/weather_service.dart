@@ -3,8 +3,8 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class WeatherCondition {
-  final String description;   // e.g. "light rain"
-  final double visibilityM;   // meters, OpenWeatherMap default max 10000
+  final String description;  
+  final double visibilityM;  
   final bool isNight;
   final bool isRaining;
   final bool isFoggy;
@@ -60,7 +60,7 @@ class WeatherService {
       if (response.statusCode != 200) return null;
       return WeatherCondition.fromJson(jsonDecode(response.body));
     } catch (_) {
-      return null; // offline or API hiccup — app should degrade gracefully
+      return null;
     }
   }
 }
